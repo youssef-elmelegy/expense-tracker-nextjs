@@ -47,11 +47,7 @@ const AddTransaction = () => {
             className="border border-gray-300 rounded-md block text-base px-3 py-2 w-full"
           />
         </div>
-        <button
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-          className="w-full py-3 px-4 mt-4 bg-purple-500 text-white font-bold rounded-md shadow-md hover:bg-purple-600 transition duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
-        >
+        <button className="w-full py-3 px-4 mt-4 bg-purple-500 text-white font-bold rounded-md shadow-md hover:bg-purple-600 transition duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
           Add Transaction
         </button>
       </form>
