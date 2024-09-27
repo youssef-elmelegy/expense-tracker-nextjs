@@ -53,41 +53,6 @@ const AddTransaction = () => {
       </form>
     </div>
   );
-  // return (
-  //   <div className="container mx-auto w-[350px] flex flex-col items-center justify-center my-8">
-  //     <h3 className="text-xl font-semibold mb-4">Add Transaction</h3>
-  //     <form ref={formRef} action={clientAction} className="w-full">
-  //       <div className="form-control mb-4">
-  //         <label htmlFor="text" className="inline-block mb-2">
-  //           Text
-  //         </label>
-  //         <input
-  //           type="text"
-  //           id="text"
-  //           name="text"
-  //           placeholder="Enter text..."
-  //           className="border border-gray-300 rounded-md block text-base px-3 py-2 w-full"
-  //         />
-  //       </div>
-  //       <div className="form-control mb-4">
-  //         <label htmlFor="amount" className="inline-block mb-2">
-  //           Amount <br /> (negative - expense, positive - income)
-  //         </label>
-  //         <input
-  //           type="number"
-  //           name="amount"
-  //           id="amount"
-  //           placeholder="Enter amount..."
-  //           step="0.01"
-  //           className="border border-gray-300 rounded-md block text-base px-3 py-2 w-full"
-  //         />
-  //       </div>
-  //       <button className="btn bg-purple-400 text-white rounded-md shadow-md hover:bg-purple-500 transition duration-200">
-  //         Add Transaction
-  //       </button>
-  //     </form>
-  //   </div>
-  // );
 };
 
 export default AddTransaction;
