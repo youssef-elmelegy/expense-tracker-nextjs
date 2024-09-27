@@ -12,10 +12,12 @@ const Header = async () => {
         </h2>
         <div>
           <SignedOut>
-            <SignInButton className="border-0 rounded bg-none text-light px-8 py-2 cursor-pointer hover:bg-light hover:text-darkBlue transition-opacity duration-600" />
+            <button className="border-0 rounded bg-none text-light px-8 py-2 cursor-pointer hover:bg-light hover:text-darkBlue transition-opacity duration-600">
+              <SignInButton />
+            </button>
           </SignedOut>
           <SignedIn>
-            <UserButton className="bg-transparent border-0" />
+            <UserButton />
           </SignedIn>
         </div>
       </div>
